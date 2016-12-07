@@ -223,7 +223,7 @@
                     </div>
                     <div class="pull-right">
                       <a href="#" data-toggle="modal" data-target="#modal-buy" class="middle white-btn">Купить в 1 клик</a>
-                      <a href="#" class="middle red-btn">В корзину</a>
+                      <a href="#" data-toggle="modal" data-target="#modal-basket" class="middle red-btn">В корзину</a>
                     </div>
                   </div>
                 </div>
@@ -415,8 +415,61 @@
                   </div>
                 </div>
               </div>
+              <div class="col-md-6">
+                <div class="row buy-form__item">
+                  <div class="form-group">
+                    <div class="input-label">
+                      <div>
+                        Комментарий
+                      </div>
+                      <div class="example-text">
+                        Например, адрес доставки или удобный способ оплаты
+                      </div>
+                    </div>
+                    <textarea class="form-control" placeholder="Комментарий"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="pull-right">
+                    <input type="submit" value="Отправить" class="blue-btn">
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-basket" role="dialog">
+    <div class="modal-dialog modal-dialog__basket" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close"></button>
+          <h4 class="modal-title">
+            Ваш товар добавлен в корзину
+          </h4>
+        </div>
+        <div class="modal-body modal-basket__text">
+          <a href="#" class="black-btn">перейти в корзину</a>
+          <span class="middle">или</span>
+          <a href="#" class="blue-btn middle">продолжить покупки</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="modal fade" id="modal-complete" role="dialog">
+    <div class="modal-dialog modal-dialog__basket" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close"></button>
+          <h4 class="modal-title">
+            Ваша заявка принята <br> Спасибо!
+          </h4>
         </div>
       </div>
     </div>
