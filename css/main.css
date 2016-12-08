@@ -1089,7 +1089,7 @@ ul > li {
     width: 3px;
     height: 3px;
     left: 7px;
-    top: 5px; }
+    top: 8px; }
   ul > li > ul {
     margin: 20px 0; }
     ul > li > ul > li {
@@ -1101,7 +1101,7 @@ ul > li {
         height: 8px;
         -webkit-border-radius: 0;
         border-radius: 0;
-        top: 3px;
+        top: 6px;
         background: url(../img/marker-list.png) no-repeat; }
 
 .wrapper {
@@ -2191,6 +2191,18 @@ textarea.form-control {
     text-transform: uppercase;
     margin-right: 25px;
     font-size: 14px; }
+    .nav-tabs > li.active > a {
+      color: #2f7f99; }
+      .nav-tabs > li.active > a:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        bottom: -1px;
+        position: absolute;
+        z-index: 2;
+        background: #2f7f99; }
     .nav-tabs > li:before {
       content: none; }
     .nav-tabs > li > a {
@@ -2215,9 +2227,77 @@ textarea.form-control {
   padding: 30px 0;
   line-height: 1.5;
   font-size: 14px; }
+  .tab-pane ul {
+    margin-bottom: 25px; }
+  .tab-pane ul > li:before {
+    background: #db3135; }
 
 .video-descr {
   color: #999; }
 
 .video-block {
   margin-bottom: 25px; }
+
+.char-table table {
+  width: 100%; }
+  .char-table table td {
+    width: 50%;
+    padding: 15px;
+    vertical-align: middle;
+    border: 1px solid #e5e5e5;
+    border-top: 0; }
+    .char-table table td:first-child {
+      text-align: right;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: #999999;
+      border-left: 0; }
+      .char-table table td:first-child.table-title {
+        font-weight: 500;
+        color: #666; }
+    .char-table table td:last-child {
+      text-align: left;
+      border-right: 0;
+      font-weight: 300;
+      color: #333; }
+
+.text-wrapp {
+  line-height: 1.4; }
+  .text-wrapp p {
+    margin-bottom: 20px; }
+  .text-wrapp ul {
+    margin-bottom: 35px; }
+  .text-wrapp table {
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 30px; }
+    .text-wrapp table thead td {
+      text-transform: uppercase;
+      color: #fff;
+      background: #192634;
+      border-right: 1px solid #e5e5e5; }
+      .text-wrapp table thead td:last-child {
+        border-right: 0; }
+    .text-wrapp table tbody tr:nth-child(2n) td {
+      background: #f5f5f5; }
+    .text-wrapp table tbody td {
+      border-left: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      font-weight: 300; }
+      .text-wrapp table tbody td:last-child {
+        border-right: 1px solid #e5e5e5; }
+    .text-wrapp table td {
+      width: 25%;
+      padding: 15px 30px; }
+
+img[align="left"] {
+  margin-right: 30px;
+  margin-bottom: 15px; }
+
+.contacts-text {
+  font-size: 18px;
+  font-weight: 300; }
+  .contacts-text .foot-email {
+    font-size: 14px; }
+    .contacts-text .foot-email i {
+      color: #2f7f99; }
