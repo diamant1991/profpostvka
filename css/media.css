@@ -4,26 +4,102 @@
   .catalog__item {
     padding: 30px 160px 30px 15px; }
   .catalog__img {
-    width: 160px; } }
+    width: 160px; }
+  .list-bottom .pull-left {
+    width: 100%; }
+  .list-bottom .pull-right {
+    width: 100%; }
+  .count {
+    display: block;
+    margin-bottom: 20px; }
+  .list-item p {
+    margin-bottom: 20px; }
+  .list-price {
+    margin-bottom: 10px; }
+  .minCost,
+  .maxCost {
+    width: 75px; } }
 
 @media (max-width: 991px) {
   .hidden-sm {
     display: none; }
+  .map {
+    margin-top: 20px; }
+  .card-info__header {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    border-bottom: 0; }
   .new-item {
     margin-bottom: 30px; }
   .footer {
-    height: auto; } }
+    height: auto; }
+  .list-item {
+    padding-left: 0; }
+  .card-top__item {
+    padding-left: 0; }
+  .list-img {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    top: 0; } }
+
+@media (min-width: 768px) {
+  .visible-xs {
+    display: none; } }
 
 @media (max-width: 767px) {
   .hidden-xs {
     display: none; }
+  .modal-title {
+    font-size: 14px;
+    margin-bottom: 0; }
+  .modal-body > a {
+    display: block;
+    margin-bottom: 10px; }
+  .modal-body > span {
+    margin-bottom: 10px; }
+  .modal-body {
+    padding: 15px; }
+  .open-xs {
+    display: block; }
+  .sidebar__menu > li > a {
+    padding-left: 60px;
+    background: #db3135 url(../img/arrow-filter.png) no-repeat 25px 50%;
+    color: #fff; }
+    .sidebar__menu > li > a.active, .sidebar__menu > li > a:hover {
+      background: #db3135 url(../img/arrow-filter.png) no-repeat 25px 50%; }
+  .sidebar__menu > li > ul > li > a {
+    padding-left: 40px; }
   .tel-block {
     padding-left: 0; }
     .tel-block:before {
       content: none; }
+  .nav-tabs > li {
+    float: none; }
+  .text-wrapp table td {
+    padding: 15px 5px;
+    font-size: 12px; }
+  .nav-tabs > li.active > a:after,
+  .nav-tabs > li > a:hover:after {
+    content: none; }
+  .card-info__btn .red-btn,
+  .card-info__btn .white-btn {
+    padding: 15px; }
+  .card-info__btn .white-btn {
+    margin-right: 2px; }
+  .tab-pane iframe {
+    display: none; }
+  .nav-tabs {
+    border: 0; }
   .header .container {
     padding-left: 0;
     padding-right: 0; }
+  .sidebar {
+    padding-right: 15px;
+    padding-left: 15px; }
+  .footer-social__item {
+    margin-right: 0; }
   .header-bottom-wrapp {
     display: block;
     text-align: center;
@@ -46,4 +122,69 @@
         font-size: 12px;
         font-weight: 500; }
         .nav-menu > li > a:hover {
-          color: #fff; } }
+          color: #fff; }
+  .product-carousel .item {
+    display: none; }
+    .product-carousel .item:first-child, .product-carousel .item:nth-child(2), .product-carousel .item:nth-child(3) {
+      display: block; }
+  .item-title {
+    text-align: center; }
+  .header-item {
+    text-align: center; }
+    .header-item .pull-left {
+      width: 100%; }
+  .brand-img {
+    text-align: center; }
+  .new-item {
+    text-align: center; }
+  .item-block:last-child {
+    margin-bottom: 0; }
+  .footer .container > div {
+    margin-bottom: 20px; }
+  .footer-social br {
+    display: none; }
+  .footer {
+    padding: 30px 0; }
+  .tel-item {
+    padding-top: 5px; }
+  .product-carousel {
+    position: relative;
+    padding-left: 35px;
+    padding-right: 35px; }
+  .next-btn-brand {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 50%;
+    margin-top: -16.5px; }
+  .prev-btn-brand {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 50%;
+    margin-top: -16.5px; }
+  .nav {
+    top: 0; }
+  .logo {
+    margin-bottom: 20px; }
+  .header-bottom-wrapp {
+    padding-bottom: 0; }
+  .content_second {
+    padding-top: 2px; }
+    .content_second .container {
+      padding-left: 0;
+      padding-right: 0; }
+    .content_second .content-block {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 30px; }
+  .list-item {
+    text-align: center; }
+    .list-item .white-btn {
+      padding: 15px; }
+    .list-item .red-btn {
+      padding: 15px; }
+  .list-price span {
+    font-size: 30px; }
+  .pagination {
+    padding: 25px 0; } }

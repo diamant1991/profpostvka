@@ -2301,3 +2301,21 @@ img[align="left"] {
     font-size: 14px; }
     .contacts-text .foot-email i {
       color: #2f7f99; }
+
+.sidebar-toggle_filter {
+  width: 100%;
+  background: #2f7f99 url(../img/burger.png) no-repeat 20px 50%;
+  color: #fff !important;
+  text-transform: uppercase;
+  display: block;
+  font-size: 18px;
+  padding: 17px 0;
+  padding-left: 60px; }
+  .sidebar-toggle_filter.active {
+    background: #2f7f99 url(../img/arrow-filter.png) no-repeat 20px 50%; }
+
+.catalog-modile {
+  text-align: left; }
+
+.catalog-modile {
+  display: none; }

@@ -65,7 +65,7 @@
     				</div>
     				<nav class="nav">
     					<ul class="nav-menu clearfix">
-    						<li><a href="#">Каталог</a></li>
+    						<li><a href="#" class="cat-btn">Каталог</a></li>
     						<li><a href="#">Бренды</a></li>
     						<li>
     							<a href="#">Информация</a>
@@ -77,6 +77,38 @@
     						<li><a href="#">Контакты</a></li>
     					</ul>
     				</nav>
+    				<div id="cat-modile" class="catalog-modile">
+    					<ul class="sidebar__menu">
+                <li>
+                  <a href="#" class="sidebar-toggle">Пункт 1</a>
+                  <ul class="sidebar__drop">
+                    <li>
+                      <a href="#">Подпункт 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Подпункт 2</a>
+                    </li>
+                    <li>
+                      <a href="#">Подпункт 3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sidebar-toggle">Пункт 2</a>
+                  <ul class="sidebar__drop">
+                    <li>
+                      <a href="#">Подпункт 1</a>
+                    </li>
+                    <li>
+                      <a href="#">Подпункт 2</a>
+                    </li>
+                    <li>
+                      <a href="#">Подпункт 3</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+    				</div>
     				<div class="search hidden-sm">
     					<form action="">
     						<input type="text" placeholder="Поиск" class="search-input">
@@ -89,7 +121,7 @@
     </header>
     <div class="content">
       <div class="container">
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-sm-4 hidden-xs">
           <div class="row">
             <aside class="sidebar">
               <ul class="sidebar__menu">
@@ -125,7 +157,7 @@
             </aside>
           </div>
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-9 col-sm-8">
           <div class="row">
             <div class="content-block">
               <ul class="breadcrumb clearfix">
@@ -207,16 +239,16 @@
                 <div class="card-bottom">
                   <div class="tab">
                     <ul class="nav-tabs clearfix" role="tablist">
-                      <li>
+                      <li class="active">
                         <a href="#descr" aria-controls="home" role="tab" data-toggle="tab">Описание</a>
                       </li>
-                      <li class="active"><a href="#char" aria-controls="profile" role="tab" data-toggle="tab">Характеристики</a></li>
+                      <li><a href="#char" aria-controls="profile" role="tab" data-toggle="tab">Характеристики</a></li>
                       <li><a href="#payment" aria-controls="messages" role="tab" data-toggle="tab">Оплата</a></li>
                       <li><a href="#delivery" aria-controls="settings" role="tab" data-toggle="tab">Доставка</a></li>
                     </ul>
                     <!-- Tab panes -->
                     <div class="tab-content">
-                      <div role="tabpanel" class="tab-pane" id="descr">
+                      <div role="tabpanel" class="tab-pane active" id="descr">
                         <p>
                           <b>Flir С2</b> — это самый дешевый тепловизор для бытовых нужд. По оценке компании Flir, C2 – это первая в мире полнофункциональная тепловизионная камера карманного формата, предназначенная для экспертов и подрядчиков в области строительной индустрии. Если вы часто занимаетесь ремонтом или просто хотите иметь в своём арсенале надёжный прибор для обследований в квартире или доме, камера C2 станет вашим надёжным помощником. Сегодня вы можете купить тепловизор FLIR C2 в ПРОФПОСТАВКА по выгодной цене, в нашем интернет-магазине он стоит 81950 рублей. Внесён в Госреестр средств измерений № 61858-15.
                         </p>
@@ -257,7 +289,7 @@
                          <li>Технология мультиспектрального смешивания MSX®</li>
                         </ul>
                       </div>
-                      <div role="tabpanel" class="tab-pane active" id="char">
+                      <div role="tabpanel" class="tab-pane" id="char">
                         <div class="char-table">
                           <table>
                             <tbody>
